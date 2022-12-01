@@ -25,6 +25,7 @@ ${reset}
     font-family: 'Noto Sans KR' !important;
     font-style: normal;
   }
+
   html, body {
     width: 100%;
     height: 100%;
