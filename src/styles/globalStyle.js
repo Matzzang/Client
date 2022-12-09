@@ -1,9 +1,11 @@
-import {createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 
+
 const GlobalStyle = createGlobalStyle`
-  ${reset};
-  
+
+
+  ${reset}
   
   html,
   body {
@@ -23,6 +25,11 @@ const GlobalStyle = createGlobalStyle`
   
   * {
     box-sizing: border-box;
+  }
+
+  input {
+    border: none;
+    background-color: transparent;
   }
 
 
